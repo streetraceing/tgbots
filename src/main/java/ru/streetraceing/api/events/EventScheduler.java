@@ -5,6 +5,7 @@ import ru.streetraceing.api.network.Bot;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class EventScheduler {
     private static final HashMap<Bot, List<Event>> events = new HashMap<>();
@@ -12,7 +13,7 @@ public class EventScheduler {
     public static void register(Bot instance, Event content) {
         List<Event> temp = events.get(instance);
         if(temp == null){
-            events.put(instance, Arrays.stream(new Event[]{content}).toList());
+            events.put(instance, Arrays.stream(new Event[]{content}).collect(Collectors.toList()));
         } else {
             temp.add(content);
             events.put(instance, temp);
