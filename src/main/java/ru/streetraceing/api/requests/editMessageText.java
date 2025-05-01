@@ -4,7 +4,7 @@ import ru.streetraceing.api.network.TelegramRequest;
 import ru.streetraceing.types.request.InlineKeyboardMarkup;
 import ru.streetraceing.types.request.LinkPreviewOptions;
 import ru.streetraceing.types.request.MessageEntity;
-import ru.streetraceing.types.request.ParseMode;
+import ru.streetraceing.types.base.ParseMode;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

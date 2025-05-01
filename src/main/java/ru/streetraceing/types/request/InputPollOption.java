@@ -1,5 +1,6 @@
 package ru.streetraceing.types.request;
 
+import ru.streetraceing.types.base.ParseMode;
 import ru.streetraceing.types.request.base.Container;
 
 import java.util.Arrays;

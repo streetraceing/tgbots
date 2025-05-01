@@ -1,5 +1,7 @@
 package ru.streetraceing.types.response.base;
 
+import ru.streetraceing.types.base.PollType;
+
 import java.util.List;
 
 public class Poll {
@@ -10,7 +12,7 @@ public class Poll {
     public Integer total_voter_count;
     public boolean is_closed;
     public boolean is_anonymous;
-    public String type;
+    public PollType type;
     public boolean allows_multiple_answers;
     public Integer correct_option_id;
     public String explanation;

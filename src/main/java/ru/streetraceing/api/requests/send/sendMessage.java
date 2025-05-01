@@ -1,6 +1,7 @@
 package ru.streetraceing.api.requests.send;
 
 import ru.streetraceing.api.network.TelegramRequest;
+import ru.streetraceing.types.base.ParseMode;
 import ru.streetraceing.types.request.*;
 
 import java.util.Arrays;

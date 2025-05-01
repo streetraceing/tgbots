@@ -1,7 +1,9 @@
 package ru.streetraceing.types.response.base;
 
+import ru.streetraceing.types.base.MessageEntityType;
+
 public class MessageEntity {
-    public String type;
+    public MessageEntityType type;
     public Integer offset;
     public Integer length;
     public String url;

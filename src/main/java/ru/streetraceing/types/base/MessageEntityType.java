@@ -1,4 +1,4 @@
-package ru.streetraceing.types.request;
+package ru.streetraceing.types.base;
 
 public enum MessageEntityType {
     mention,

@@ -1,7 +1,7 @@
 package ru.streetraceing.api.requests.send;
 
 import ru.streetraceing.api.network.TelegramRequest;
-import ru.streetraceing.types.request.ChatAction;
+import ru.streetraceing.types.base.ChatAction;
 
 public class sendChatAction extends TelegramRequest {
     public sendChatAction action(ChatAction value) {
